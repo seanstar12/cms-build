@@ -1,0 +1,7 @@
+http://stackoverflow.com/questions/26597926/install-mysql-with-ansible-on-ubuntu
+https://github.com/geerlingguy/ansible-role-drush
+https://www.vagrantup.com/docs/cli/
+http://docs.ansible.com/ansible/playbooks_roles.html#roles
+https://github.com/geerlingguy/drupal-vm/blob/master/provisioning/playbook.yml
+https://github.com/geerlingguy/ansible-role-nodejs
+https://github.com/snowplow/ansible-playbooks

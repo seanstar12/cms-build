@@ -1,0 +1,27 @@
+---
+- name: Update all packages
+  apt: upgrade=dist
+  sudo: yes
+
+- name: install packages
+  action: apt pkg={{item}}  state=installed update_cache=yes
+  with_items:
+    - curl
+    - vim
+    - python-dev
+    - python-software-properties
+    - python-setuptools          
+    - python-pip
+    #- ec2-api-tools
+    #- mysql-client
+    #- oracle-java8-installer
+    #- nodejs
+    #- php5
+    #- php5-gd
+    #- nginx
+    #- apache2
+    #- mysql-server
+    #- python-mysqldb
+    #- libapache2-mod-auth-mysql
+    #- drupal7
+

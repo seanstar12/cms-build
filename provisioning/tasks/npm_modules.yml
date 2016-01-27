@@ -1,0 +1,4 @@
+---
+- name: Install Ember-Cli
+#description: Install Ember-cli 
+- npm: name=ember-cli global=yes version=0.1.4
